@@ -1,9 +1,9 @@
 dictionary = {"1":"e" , "2":"a" , "3":"d" , "4":"c"}
-allvalues = dictionary.values()
+Values_in_dictionary = dictionary.values()
 word = "abcx"
-lword = list(word)
-for value in lword:
-	if value not in allvalues:
+word_converted_to_list = list(word)
+for value in word_converted_to_list:
+	if value not in Values_in_dictionary:
 		print("Word letter not in dictionary")
 		break
 else:
