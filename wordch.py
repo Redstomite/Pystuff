@@ -1,6 +1,6 @@
 dictionary = {"1":"e" , "2":"a" , "3":"d" , "4":"c"}
 Values_in_dictionary = dictionary.values()
-word = str(input("Name a word"))
+word = str(input("Name a word	"))
 word_list = list(word)
 how_many_chars_not_in_word_list = 0
 for value in word_list:
