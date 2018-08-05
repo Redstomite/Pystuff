@@ -1,7 +1,6 @@
 x = 0
 new_list = []
 error = ""
-finished_stage_one = "No"
 word = list("Rahul")
 sequence_list = ["R", "a", "h", "c", "l", "u", "g", "m"]
 for value in word:
